@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="h-20 lg:px-20 bg-gray-300 h-10 sticky flex sm:justify-between lg:justify-around items-center">
+        <nav class="sm:px-3 lg:px-10 flex justify-start sm:gap-5 lg:gap-10 text-sky-600 font-bold sm:text-xs md:text-sm lg:text-lg">
+            <a class="hover:text-sky-800" href="" >Home</a>
+            <a class="hover:text-sky-800" href="" >Caregories</a>
+            <a class="hover:text-sky-800" href="">Contact Us</a>
+        </nav>
+        <div class="w-96">
+            <h2 class="text-blue-600 font-bold capitalize sm:text-xs md:text-sm lg:text-lg">Search your favourite food here</h2>
+            <input id="input-field" class="border-2 w-3/5 px-4 py-2 rounded" type="text">
+            <input id="input-button" class="bg-blue-500 px-4 py-2 rounded hover:bg-blue-700 mx-5 text-white cursor-pointer" type="submit" value="Search">
+        </div>
+    </div>
+
+    <div class="w-[80%] mx-auto mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-6" id="categories">
+        
+    </div>
+
+    <div class="w-[80%] mx-auto mt-10" id="food-details">
+
+    </div>
+
+    <div id="all-food" class="container mx-auto w-[90%] grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 mb-6">
+        
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
